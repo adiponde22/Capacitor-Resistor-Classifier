@@ -2,7 +2,7 @@
 This repository contains the code for training a machine learning model to classify electronic components, specifically resistors and capacitors, using image data. The "Resistor vs. Capacitor Classifier" utilizes the TensorFlow framework and implements a deep learning architecture based on the MobileNetV2 convolutional neural network.
 
 
-Key Features
+# Key Features
 Data Preprocessing: The code includes an ImageDataGenerator object that performs data preprocessing tasks such as rescaling the image pixel values. This ensures that the input data is properly prepared for training the model.
 
 Model Architecture: The code defines a sequential model that consists of a pre-trained MobileNetV2 base model followed by global average pooling, fully connected layers, dropout regularization, and a softmax activation layer for multi-class classification.
@@ -15,7 +15,7 @@ Model Evaluation: During training, the model's performance is evaluated using th
 
 Model Saving: After training, the code saves the trained model as an HDF5 file (sensmodel.h5), allowing it to be easily loaded and used for inference or further fine-tuning in the future.
 
-Usage
+# Usage
 To use the "Resistor vs. Capacitor Classifier" code:
 
 Organize your resistor and capacitor images into separate directories (resistors and capacitors) within the pics directory. You can also include a none directory for images not belonging to either class.
@@ -32,7 +32,7 @@ After training, the trained model will be saved as an HDF5 file (resistor_capaci
 
 Feel free to modify the code as needed, such as adjusting the model architecture, hyperparameters, or training settings, to suit your specific requirements.
 
-Contribution Guidelines
+# Contribution Guidelines
 As this repository primarily contains code, contributions are welcome in the form of bug fixes, improvements, or additional functionality that enhances the Resistor vs. Capacitor Classifier. To contribute, please follow the standard guidelines:
 
 Fork the repository and create a new branch for your contributions.
