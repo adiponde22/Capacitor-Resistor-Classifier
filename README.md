@@ -28,7 +28,7 @@ The code will automatically generate training and validation data on-the-fly usi
 
 The model will be trained for the specified number of epochs, and the training and validation loss/accuracy will be displayed during training.
 
-After training, the trained model will be saved as an HDF5 file (sensmodel.h5) in the current directory.
+After training, the trained model will be saved as an HDF5 file (resistor_capacitor_none.h5) in the current directory.
 
 Feel free to modify the code as needed, such as adjusting the model architecture, hyperparameters, or training settings, to suit your specific requirements.
 
